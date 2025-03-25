@@ -89,12 +89,5 @@ namespace ProjectPRN
             ForgotPasswordWindow forgotPasswordWindow = new ForgotPasswordWindow();
             forgotPasswordWindow.ShowDialog();
         }
-
-        private void btnHome_Click(object sender, RoutedEventArgs e)
-        {
-            Home home = new Home();
-            home.Show();
-            this.Close();
-        }
     }
 }

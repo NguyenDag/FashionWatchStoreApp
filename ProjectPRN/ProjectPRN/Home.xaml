@@ -5,9 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
-        Title="Home" Height="800" Width="1200"
-        WindowStartupLocation="CenterScreen"
-        WindowState="Maximized">
+        Title="Home" Height="800" Width="1200">
 
     <Window.Resources>
         <local:RatingToStarsConverter x:Key="StarsConverter"/>

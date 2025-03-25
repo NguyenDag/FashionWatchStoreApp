@@ -4589,23 +4589,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Acer Nitro Tiger\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nguyen_Dang_Nguyen\\Term5_SPRING2025\\PRN212\\TESTPRJ\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "projectUniqueName": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
       "projectName": "ProjectPRN",
-      "projectPath": "D:\\Nguyen_Dang_Nguyen\\Term5_SPRING2025\\PRN212\\TESTPRJ\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Nguyen_Dang_Nguyen\\Term5_SPRING2025\\PRN212\\TESTPRJ\\ProjectPRN\\ProjectPRN\\obj\\",
+      "projectPath": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "packagesPath": "C:\\Users\\Acer Nitro Tiger\\.nuget\\packages\\",
+      "outputPath": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Acer Nitro Tiger\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4690,7 +4690,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

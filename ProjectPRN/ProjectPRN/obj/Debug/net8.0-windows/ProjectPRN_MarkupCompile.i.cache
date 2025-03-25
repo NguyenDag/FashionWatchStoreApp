@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
+D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
 ProjectPRN
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\App.xaml
+D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\App.xaml
 10-1632587063
 
 31-1041235418
-245-362592125
+245-1249518631
 ChangePassword.xaml;DiscountManagement.xaml;ForgotPasswordWindow.xaml;Home.xaml;LoginWindow.xaml;ProductDetail.xaml;RegisterWindow.xaml;Shop.xaml;ShoppingCart.xaml;ViewInfo.xaml;
 
-True
+False
 

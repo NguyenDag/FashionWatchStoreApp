@@ -73,11 +73,6 @@
         <!-- Cột bên phải hiển thị form đăng nhập -->
         <Border Grid.Column="1" Background="White">
             <StackPanel Width="300" VerticalAlignment="Center">
-                <Button x:Name="btnHome" Content="🏠 Trang chủ" 
-                        Background="Transparent" Foreground="#3498db"
-                        FontSize="14" FontWeight="Bold"
-                        HorizontalAlignment="Left"
-                        Click="btnHome_Click"/>
                 <TextBlock Text="ĐĂNG NHẬP" FontSize="24" FontWeight="Bold" Margin="0,0,0,30" HorizontalAlignment="Center"/>
 
                 <TextBlock Text="Tên đăng nhập" FontSize="14" Margin="0,5,0,0"/>

@@ -169,8 +169,7 @@ namespace ProjectPRN
         private void btnViewInfo_Click(object sender, RoutedEventArgs e)
         {
             ViewInfo profileWindow = new ViewInfo();
-            profileWindow.Show();
-            this.Close();
+            profileWindow.ShowDialog();
         }
 
         private void btnLogout_Click(object sender, RoutedEventArgs e)

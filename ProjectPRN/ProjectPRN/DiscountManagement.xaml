@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
-        Title="Discount Management" Height="700" Width="1200" Loaded="Window_Loaded" 
-        WindowState="Maximized">
+        Title="Discount Management" Height="700" Width="1200" Loaded="Window_Loaded">
 
     <Window.Resources>
         <!-- Style for Labels -->
