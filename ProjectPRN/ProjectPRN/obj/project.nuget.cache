@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kUzQcYzni1I=",
+  "dgSpecHash": "LDEm/SA5dJE=",
   "success": true,
-  "projectFilePath": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+  "projectFilePath": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer Nitro Tiger\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Acer Nitro Tiger\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

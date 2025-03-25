@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
+D:\Github\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\
 ProjectPRN
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\App.xaml
-10-1632587063
+D:\Github\FashionWatchStoreApp\ProjectPRN\ProjectPRN\App.xaml
+11-1392252855
 
-31-1041235418
+321445170247
 245-1249518631
-ChangePassword.xaml;DiscountManagement.xaml;ForgotPasswordWindow.xaml;Home.xaml;LoginWindow.xaml;ProductDetail.xaml;RegisterWindow.xaml;Shop.xaml;ShoppingCart.xaml;ViewInfo.xaml;
+ChangePassword.xaml;DiscountManagement.xaml;ForgotPasswordWindow.xaml;Home.xaml;LoginWindow.xaml;phong.xaml;ProductDetail.xaml;RegisterWindow.xaml;Shop.xaml;ShoppingCart.xaml;ViewInfo.xaml;
 
 False
 

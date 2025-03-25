@@ -4595,11 +4595,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "projectUniqueName": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
       "projectName": "ProjectPRN",
-      "projectPath": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+      "projectPath": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
       "packagesPath": "C:\\Users\\Acer Nitro Tiger\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\obj\\",
+      "outputPath": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,105 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\",
+  "WorkspaceRootPath": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\phong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\phong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\shoppingcart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\shoppingcart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\shoppingcart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\shoppingcart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\shoppingcart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\shoppingcart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\productdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\productdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\productdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\shop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\shop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\shop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\projectprn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\projectprn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\projectprn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\productdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\productdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\productdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\shop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\shop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\shop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\viewinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\viewinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\viewinfo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\viewinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\viewinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\viewinfo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\models\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\models\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\ratingtostarsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\ratingtostarsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\ratingtostarsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\discountmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\discountmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\discountmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\discountmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\discountmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\discountmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\semester5_spring2025\\prn212\\projectprn\\projectprn\\models\\accountrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|d:\\github\\fashionwatchstoreapp\\projectprn\\projectprn\\models\\accountrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED8F20EF-1920-40CE-925B-64920AFB789F}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\models\\accountrank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -110,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,35 +138,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
+              "Title": "phong.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\phong.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\phong.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\phong.xaml",
+              "RelativeToolTip": "ProjectPRN\\phong.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-25T16:35:11.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ViewInfo.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\ViewInfo.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml",
               "RelativeToolTip": "ProjectPRN\\ViewInfo.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-24T07:01:52.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ViewInfo.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\ViewInfo.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ViewInfo.xaml.cs",
               "RelativeToolTip": "ProjectPRN\\ViewInfo.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T07:01:50.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T07:01:50.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Cart.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Cart.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Cart.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Cart.cs",
               "RelativeToolTip": "ProjectPRN\\Models\\Cart.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -170,58 +185,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ShoppingCart.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\ShoppingCart.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml",
               "RelativeToolTip": "ProjectPRN\\ShoppingCart.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-23T20:15:48.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T20:15:48.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ChangePassword.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\ChangePassword.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml",
               "RelativeToolTip": "ProjectPRN\\ChangePassword.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-24T07:02:39.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductDetail.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\ProductDetail.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml",
               "RelativeToolTip": "ProjectPRN\\ProductDetail.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T13:56:32.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T13:56:32.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Home.xaml",
+              "RelativeDocumentMoniker": "ProjectPRN\\Home.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Home.xaml",
+              "RelativeToolTip": "ProjectPRN\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-22T14:58:02.107Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Home.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Home.xaml",
-              "RelativeDocumentMoniker": "ProjectPRN\\Home.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Home.xaml",
-              "RelativeToolTip": "ProjectPRN\\Home.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-22T14:58:02.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Home.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Home.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Home.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Home.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Home.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Home.xaml.cs",
               "RelativeToolTip": "ProjectPRN\\Home.xaml.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,36 +242,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ShoppingCart.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\ShoppingCart.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ShoppingCart.xaml.cs",
               "RelativeToolTip": "ProjectPRN\\ShoppingCart.xaml.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAcwK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T20:15:56.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T20:15:56.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\App.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\App.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\App.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\App.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\App.xaml",
               "RelativeToolTip": "ProjectPRN\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-23T17:08:11.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T17:08:11.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ChangePassword.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\ChangePassword.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ChangePassword.xaml.cs",
               "RelativeToolTip": "ProjectPRN\\ChangePassword.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,11 +277,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Account.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Account.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Account.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Account.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Account.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Account.cs",
               "RelativeToolTip": "ProjectPRN\\Models\\Account.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -279,62 +289,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Shop.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Shop.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Shop.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\Shop.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Shop.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Shop.xaml",
               "RelativeToolTip": "ProjectPRN\\Shop.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-25T13:54:55.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Shop.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Shop.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\Shop.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Shop.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\Shop.xaml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T13:54:57.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductDetail.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectPRN\\ProductDetail.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml.cs",
-              "RelativeToolTip": "ProjectPRN\\ProductDetail.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T13:56:47.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T13:54:55.106Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ProjectPRN",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
-              "RelativeDocumentMoniker": "ProjectPRN\\ProjectPRN.csproj",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
-              "RelativeToolTip": "ProjectPRN\\ProjectPRN.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-25T13:58:23.244Z",
-              "EditorCaption": ""
+              "Title": "Shop.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Shop.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\Shop.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Shop.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\Shop.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:54:57.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
+              "Title": "ProductDetail.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectPRN\\ProductDetail.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProductDetail.xaml.cs",
+              "RelativeToolTip": "ProjectPRN\\ProductDetail.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:56:47.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectPRN.csproj",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+              "RelativeDocumentMoniker": "ProjectPRN\\ProjectPRN.csproj",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\ProjectPRN.csproj",
+              "RelativeToolTip": "ProjectPRN\\ProjectPRN.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T13:58:23.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\LoginWindow.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml.cs",
               "RelativeToolTip": "ProjectPRN\\LoginWindow.xaml.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAmwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -342,22 +348,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\LoginWindow.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\LoginWindow.xaml",
               "RelativeToolTip": "ProjectPRN\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-24T06:46:36.439Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "RatingToStarsConverter.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\RatingToStarsConverter.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\RatingToStarsConverter.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\RatingToStarsConverter.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\RatingToStarsConverter.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\RatingToStarsConverter.cs",
               "RelativeToolTip": "ProjectPRN\\RatingToStarsConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -365,11 +371,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Product.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Product.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Product.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Product.cs",
               "RelativeToolTip": "ProjectPRN\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -377,11 +383,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "SessionManager.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\SessionManager.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\SessionManager.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\SessionManager.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\SessionManager.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\SessionManager.cs",
               "RelativeToolTip": "ProjectPRN\\Models\\SessionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -389,11 +395,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DiscountManagement.xaml.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\DiscountManagement.xaml.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml.cs",
               "RelativeToolTip": "ProjectPRN\\DiscountManagement.xaml.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAADwv7IAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -401,11 +407,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AccountRank.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\AccountRank.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\AccountRank.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\AccountRank.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\AccountRank.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\AccountRank.cs",
               "RelativeToolTip": "ProjectPRN\\Models\\AccountRank.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -413,22 +419,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DiscountManagement.xaml",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml",
               "RelativeDocumentMoniker": "ProjectPRN\\DiscountManagement.xaml",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\DiscountManagement.xaml",
               "RelativeToolTip": "ProjectPRN\\DiscountManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-23T16:47:54.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Discount.cs",
-              "DocumentMoniker": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Discount.cs",
+              "DocumentMoniker": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Discount.cs",
               "RelativeDocumentMoniker": "ProjectPRN\\Models\\Discount.cs",
-              "ToolTip": "D:\\Semester5_Spring2025\\prn212\\ProjectPRN\\ProjectPRN\\Models\\Discount.cs",
+              "ToolTip": "D:\\Github\\FashionWatchStoreApp\\ProjectPRN\\ProjectPRN\\Models\\Discount.cs",
               "RelativeToolTip": "ProjectPRN\\Models\\Discount.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

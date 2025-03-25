@@ -188,7 +188,7 @@ namespace ProjectPRN {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProjectPRN;component/viewinfo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProjectPRN;V1.0.0.0;component/viewinfo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ViewInfo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
