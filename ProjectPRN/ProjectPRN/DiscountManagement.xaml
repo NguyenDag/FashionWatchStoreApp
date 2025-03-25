@@ -1,0 +1,144 @@
+﻿<Window x:Class="ProjectPRN.DiscountManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="Discount Management" Height="700" Width="1200" Loaded="Window_Loaded" 
+        WindowState="Maximized">
+
+    <Window.Resources>
+        <!-- Style for Labels -->
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <!-- Style for TextBox -->
+        <Style x:Key="TextBoxStyle" TargetType="TextBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="200"/>
+
+        </Style>
+
+        <!-- Style for ComboBox -->
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="200"/>
+        </Style>
+        <!-- Style for DatePicker -->
+        <Style x:Key="DatePickerStyle" TargetType="DatePicker">
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="200"/>
+        </Style>
+
+        <!-- Style for Buttons -->
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Background" Value="#4CAF50"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar -->
+        <StackPanel Grid.Column="0" Background="#343a40">
+            <TextBlock Text="Admin Panel" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="10"/>
+            <Button Content="Dashboard" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
+            <Button Content="Products" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
+            <Button Content="Orders" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
+            <Button Content="Customers" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
+            <Button Content="Settings" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5"/>
+        </StackPanel>
+
+        <!-- Main Content -->
+        <Grid Grid.Column="1" x:Name="MainContent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- DataGrid to display discounts -->
+            <DataGrid Grid.Column="0" Grid.Row="0" Name="dgvDisplay" AutoGenerateColumns="false" 
+                      CanUserAddRows="false" Margin="10" IsReadOnly="True" SelectedCellsChanged="dgvDisplay_SelectedCellsChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="DiscountId" Binding="{Binding Path=DiscountId}" Width="*"/>
+                    <DataGridTextColumn Header="Discount Name" Binding="{Binding Path=DiscountName}" Width="*"/>
+                    <DataGridTextColumn Header="Account Rank" Binding="{Binding Path=AccountRankName}" Width="*"/>
+                    <DataGridTextColumn Header="Percent" Binding="{Binding Path=Percent}" Width="*"/>
+                    <DataGridTextColumn Header="Min Cost" Binding="{Binding Path=MinCost}" Width="*"/>
+                    <DataGridTextColumn Header="End Date" Binding="{Binding Path=EndDate, StringFormat=\{0:dd-MM-yyyy\}}" Width="*"/>
+                    <DataGridTextColumn Header="Status" Binding="{Binding Path=MyStatus}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Form for adding/updating a discount -->
+            <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Vertical" Margin="10">
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Discount Id" Style="{StaticResource LabelStyle}" />
+                    <TextBox Name="txtDiscountId" Style="{StaticResource TextBoxStyle}" IsEnabled="False"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Discount Name" Style="{StaticResource LabelStyle}" />
+                    <TextBox Name="txtDiscountName" Style="{StaticResource TextBoxStyle}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Account Rank" Style="{StaticResource LabelStyle}" />
+                    <ComboBox Name="cbxAccountRank" Style="{StaticResource ComboBoxStyle}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Percent" Style="{StaticResource LabelStyle}" />
+                    <TextBox Name="txtPercent" Style="{StaticResource TextBoxStyle}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Min Cost" Style="{StaticResource LabelStyle}" />
+                    <TextBox Name="txtMinCost" Style="{StaticResource TextBoxStyle}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="End Date" Style="{StaticResource LabelStyle}" />
+                    <DatePicker Name="dpkEndDate" Style="{StaticResource DatePickerStyle}" />
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Status" Style="{StaticResource LabelStyle}" />
+                    <ComboBox Name="cbxStatus" Style="{StaticResource ComboBoxStyle}">
+                        <ComboBoxItem Content="Active"/>
+                        <ComboBoxItem Content="Inactive" />
+                    </ComboBox>
+                </StackPanel>
+
+                <!-- Buttons for CRUD operations -->
+                <Grid Margin="0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Name="btnInsert" Grid.Column="0" Content="Insert" Style="{StaticResource ButtonStyle}" Click="btnInsert_Click"/>
+                    <Button Name="btnUpdate" Grid.Column="1" Content="Update" Style="{StaticResource ButtonStyle}" Click="btnUpdate_Click"/>
+                    <Button Name="btnDelete" Grid.Column="2" Content="Delete" Style="{StaticResource ButtonStyle}" Click="btnDelete_Click"/>
+                </Grid>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

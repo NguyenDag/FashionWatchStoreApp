@@ -1,0 +1,197 @@
+﻿<Window x:Class="ProjectPRN.Shop"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="Shop" Height="450" Width="800"
+        WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <!-- Navbar width -->
+            <ColumnDefinition Width="*"/>
+            <!-- Main content -->
+        </Grid.ColumnDefinitions>
+
+        <!-- NAVBAR -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="120"/>
+                <!-- Thanh tìm kiếm -->
+                <RowDefinition Height="*"/>
+                <!-- Danh sách sản phẩm -->
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Vertical" Background="#B5EAD7">
+                <Border Width="100" Height="80" Padding="3" Background="White" CornerRadius="1000" HorizontalAlignment="Center">
+                    <Ellipse>
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="Images/logo.png"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                </Border>
+                <TextBlock  Text="Watches Store" FontSize="24" FontWeight="Bold" Foreground="#374151" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <!-- Thanh bộ lọc -->
+            <Border Grid.Column="0" Grid.Row="1" Background="#FFB6C1" Padding="15">
+                <StackPanel>
+
+                    <!-- Ô để tìm kiếm-->
+                    <StackPanel Margin="10" Orientation="Vertical">
+                        <TextBlock Text="Hãy nhập từ khóa: " FontWeight="Bold" FontSize="20" Foreground="#374151" Margin="0 0 0 10"/>
+                        <TextBox x:Name="txtSearch" Width="200" Height="25" FontSize="14" 
+                   VerticalAlignment="Center" TextChanged="txtSearch_TextChanged" />
+                    </StackPanel>
+
+                    <!-- Bộ lọc theo Brand -->
+                    <StackPanel Margin="10" Orientation="Vertical">
+                        <TextBlock Text="Thương hiệu" FontWeight="Bold" FontSize="20" Foreground="#374151" Margin="0 0 0 10"/>
+                        <StackPanel Name="cbkBrand" Orientation="Vertical">
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Bộ lọc theo Category -->
+                    <StackPanel Margin="10" Orientation="Vertical">
+                        <TextBlock Text="Phân loại" FontWeight="Bold" FontSize="20" Foreground="#374151" Margin="0 0 0 10"/>
+                        <StackPanel Name="cbkCategory" Orientation="Vertical" >
+                        </StackPanel>
+                    </StackPanel>
+
+                    <!-- Bộ lọc theo Price -->
+                    <StackPanel Margin="10">
+                        <TextBlock Text="Tìm theo khoảng giá:" FontWeight="Bold" FontSize="20" Foreground="#374151" Margin="0 0 0 10"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox Name="txtPriceFrom" Width="100" Height="25" FontSize="14" VerticalAlignment="Center" PreviewTextInput="txtPriceFrom_PreviewTextInput"/>
+                            <TextBlock Text="-" FontWeight="Bold" FontSize="20" Margin="20 0 20 0" VerticalAlignment="Center"/>
+                            <TextBox Name="txtPriceTo" Width="100" Height="25" FontSize="14" VerticalAlignment="Center"/>
+                        </StackPanel>
+                        <Button Content="Tìm kiếm" FontSize="16" 
+                           Padding="5 5"
+                           Margin="5 10" Width="100" Name="btnSearch" Click="btnSearch_Click"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+
+        </Grid>
+
+        <!-- MAIN CONTENT -->
+        <Grid Grid.Column="1" Grid.Row="1" Background="#FFF1F1F1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="Auto"/>
+                <!-- Tiêu đề -->
+                <RowDefinition Height="*"/>
+                <!-- ListBox cuộn -->
+                <RowDefinition Height="Auto"/>
+                <!-- Nút phân trang -->
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Background="#FFB6C1" Orientation="Horizontal" Height="80">
+                <!-- Nút Home -->
+                <Button Content="Trang chủ" 
+   
+   FontSize="16" 
+   Padding="10 15"
+   Margin="5 10" Name="Home" Click="Home_Click">
+
+                </Button>
+
+                <!-- Nút Sản phẩm -->
+                <Button Content="Sản phẩm" 
+   FontSize="16" 
+   Padding="10 15"
+   Margin="5 10" >
+
+                </Button>
+
+                <!-- Nút Khuyến mãi -->
+                <Button Content="Khuyến mãi" 
+   FontSize="16" 
+   Padding="10 15"
+   Margin="5 10">
+
+                </Button>
+
+                <!-- Nút Giỏ hàng -->
+                <Button Content="Giỏ hàng" 
+   FontSize="16" 
+   Padding="10 15"
+   Margin="5 10">
+
+                </Button>
+                <Button Content="Tài khoản" 
+   FontSize="16" 
+   Padding="10 15" 
+   Margin="5 10">
+
+                </Button>
+
+                <!-- Nút Tài khoản -->
+            </StackPanel>
+            <TextBlock Text="Danh sách Sản Phẩm" Margin="10" FontSize="22" FontWeight="Bold" Grid.Row="1"/>
+
+            <ListBox Name="dgData"
+    Background="Transparent"
+    ScrollViewer.CanContentScroll="True"
+    ScrollViewer.VerticalScrollBarVisibility="Auto"
+    Grid.Row="2">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Width="900"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="10" Width="270" Height="350" Padding="10" Background="White" CornerRadius="10" MouseLeftButtonUp="Border_MouseLeftButtonUp" Tag="{Binding ProductId}">
+                            <StackPanel>
+                                <Border Width="230" Height="140" CornerRadius="5" Margin="5">
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="2" BlurRadius="5"/>
+                                    </Border.Effect>
+                                    <Border.Background>
+                                        <ImageBrush ImageSource="{Binding ProductImage}" Stretch="Uniform"/>
+                                    </Border.Background>
+                                </Border>
+
+                                <TextBlock Text="{Binding ProductName}" FontSize="18" FontWeight="SemiBold" 
+              Margin="5 0" TextAlignment="Center"/>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock Text="{Binding PriceBuy, StringFormat=\{0:C\}}" FontSize="18" Foreground="Red" 
+                  FontWeight="Bold" Margin="5 0 0 0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <TextBlock Text="{Binding Quantity, StringFormat=Kho: {0}}" FontSize="14" Foreground="Blue"/>
+                                    <TextBlock Text="{Binding StatusText}" FontSize="14" FontWeight="Bold" 
+                  Foreground="{Binding StatusColor}" Margin="10 0 0 0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                                    <Button Content="🔍Chi tiết" Padding="5" Margin="5" Tag="{Binding ProductId}" Click="ViewDetail_Click"/>
+                                    <Button Content="🛒Thêm vào giỏ hàng" Padding="5" Margin="5" Click="AddToCart_Click"/>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10" Grid.Row="3">
+                <Button Content="◀ Trước" Command="{Binding PreviousPageCommand}" 
+       IsEnabled="{Binding CanGoPrevious}" Padding="10,5"
+       Background="Purple" BorderBrush="Purple" Foreground="White" />
+                <TextBlock Text="{Binding CurrentPage}" FontSize="16" FontWeight="Bold" Margin="10,0,5,0"/>
+                <TextBlock Text="/" FontSize="16" FontWeight="Bold" Margin="0,0,5,0"/>
+                <TextBlock Text="{Binding TotalPages}" FontSize="16" FontWeight="Bold" Margin="0,0,10,0"/>
+
+                <Button Content="Tiếp ▶" Command="{Binding NextPageCommand}" 
+       IsEnabled="{Binding CanGoNext}" Padding="10,5"
+       Background="Purple" BorderBrush="Purple" Foreground="White" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
