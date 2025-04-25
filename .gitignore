@@ -1,0 +1,34 @@
+## Build results
+**/bin/
+**/obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio files
+.vs/
+
+## NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## Backup & temporary files
+*.bak
+*.tmp
+*.log
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Others
+*.dbmdl
+*.VC.db
