@@ -16,7 +16,9 @@ namespace ProjectPRN.Models
 
         //public static bool? Status { get; set; }
 
-        public static bool IsLoggedIn => AccountId >0;
+        public static bool IsLoggedIn => AccountId > 0;
+
+        public static Account account { get => ProjectPrnContext.Ins.Accounts.Find(AccountId); }
 
         public static void Logout()
         {

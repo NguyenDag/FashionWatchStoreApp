@@ -191,6 +191,8 @@ public partial class ProjectPrnContext : DbContext
                 .HasColumnName("minCost");
             entity.Property(e => e.Percent).HasColumnName("percent");
             entity.Property(e => e.Status).HasColumnName("status");
+            entity.Property(e => e.Amount).HasColumnName("amount"); // Thêm mới thuộc tính Amount
+
         });
 
         modelBuilder.Entity<Order>(entity =>

@@ -17,12 +17,11 @@ public partial class Discount
 
     public DateOnly? EndDate { get; set; }
 
-    public bool? Status { get; set; }
+    public int Amount { get; set; }
 
+    public bool? Status { get; set; }
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 
     public string MyStatus => Status == true ? "Active" : "Inactive";
-
-
 
 }

@@ -86,7 +86,7 @@
                 <TextBlock Text="Mật khẩu" FontSize="14" Margin="0,15,0,0"/>
                 <PasswordBox x:Name="txtPassword" />
 
-                <CheckBox Content="Ghi nhớ đăng nhập" Margin="0,15,0,0"/>
+                <CheckBox x:Name="chkRememberMe" Content="Ghi nhớ đăng nhập" Margin="0,15,0,0"/>
 
                 <Button x:Name="btnLogin" Content="ĐĂNG NHẬP" Margin="0,25,0,0" Click="btnLogin_Click"/>
 

@@ -1,488 +1,187 @@
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.exe
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\appsettings.json
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.deps.json
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.runtimeconfig.json
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.pdb
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Core.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Identity.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Humanizer.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Convention.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Memory.Data.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.AssemblyReference.cache
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\App.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.cache
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.lref
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.g.resources
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.GeneratedMSBuildEditorConfig.editorconfig
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfoInputs.cache
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfo.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.CoreCompileInputs.cache
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.Up2Date
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\refint\ProjectPRN.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.pdb
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.genruntimeconfig.cache
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ref\ProjectPRN.dll
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.g.cs
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.baml
-D:\Semester5_Spring2025\prn212\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.exe
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\appsettings.json
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.deps.json
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.runtimeconfig.json
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.pdb
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Core.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Identity.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Humanizer.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Convention.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Memory.Data.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.AssemblyReference.cache
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\App.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.cache
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.lref
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.baml
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.g.resources
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.GeneratedMSBuildEditorConfig.editorconfig
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfoInputs.cache
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfo.cs
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.CoreCompileInputs.cache
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.Up2Date
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\refint\ProjectPRN.dll
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.pdb
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.genruntimeconfig.cache
-D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\TESTPRJ\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ref\ProjectPRN.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.exe
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\appsettings.json
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.deps.json
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.runtimeconfig.json
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.pdb
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Humanizer.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Convention.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.AssemblyReference.cache
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.cache
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.lref
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.g.resources
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfoInputs.cache
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfo.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.CoreCompileInputs.cache
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.sourcelink.json
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.Up2Date
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\refint\ProjectPRN.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.pdb
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.genruntimeconfig.cache
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ref\ProjectPRN.dll
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\AccountManagementWindow.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductManagementWindow.g.cs
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\AccountManagementWindow.baml
-C:\Users\admin\OneDrive\Máy tính\FashionWatchStoreApp\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductManagementWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.exe
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\appsettings.json
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.deps.json
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.runtimeconfig.json
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ProjectPRN.pdb
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Humanizer.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.AssemblyReference.cache
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductStatistic.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\AccountManagementWindow.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\CategoryManagementWindow.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ChangePassword.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\CheckOut.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DashBoard.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\HomePage.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductManagementWindow.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductStatistic.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RankMemberStatistics.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RevenueandProfitStatistic.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ShoppingCart.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\StatisticWindow.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\TopCancelCustomers.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\TopCustomers.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ViewInfo.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\App.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.cache
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN_MarkupCompile.lref
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\AccountManagementWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\CategoryManagementWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\CheckOut.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DashBoard.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\DiscountManagement.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ForgotPasswordWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Home.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\HomePage.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\LoginWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductDetail.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProductManagementWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RankMemberStatistics.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RegisterWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\RevenueandProfitStatistic.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\Shop.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\StatisticWindow.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\TopCancelCustomers.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\TopCustomers.baml
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.g.resources
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfoInputs.cache
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.AssemblyInfo.cs
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.CoreCompileInputs.cache
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.csproj.Up2Date
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\refint\ProjectPRN.dll
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.pdb
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ProjectPRN.genruntimeconfig.cache
+D:\Nguyen_Dang_Nguyen\Term5_SPRING2025\PRN212\ProjectPRN_Team1\ProjectPRN_Phong_2903\ProjectPRN\ProjectPRN\obj\Debug\net8.0-windows\ref\ProjectPRN.dll

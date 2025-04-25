@@ -6,68 +6,217 @@
         xmlns:local="clr-namespace:ProjectPRN"
         mc:Ignorable="d"
         Title="Discount Management" Height="700" Width="1200" Loaded="Window_Loaded" 
-        WindowState="Maximized">
+        WindowStartupLocation="CenterScreen"
+ FontFamily="Segoe UI"
+ WindowState="Maximized">
 
     <Window.Resources>
-        <!-- Style for Labels -->
-        <Style x:Key="LabelStyle" TargetType="Label">
-            <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="HorizontalAlignment" Value="Right"/>
-            <Setter Property="Width" Value="150"/>
-            <Setter Property="Margin" Value="5"/>
-        </Style>
-
-        <!-- Style for TextBox -->
-        <Style x:Key="TextBoxStyle" TargetType="TextBox">
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="5"/>
-            <Setter Property="Width" Value="200"/>
-
-        </Style>
-
-        <!-- Style for ComboBox -->
-        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="5"/>
-            <Setter Property="Width" Value="200"/>
-        </Style>
-        <!-- Style for DatePicker -->
-        <Style x:Key="DatePickerStyle" TargetType="DatePicker">
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="5"/>
-            <Setter Property="Width" Value="200"/>
-        </Style>
-
-        <!-- Style for Buttons -->
-        <Style x:Key="ButtonStyle" TargetType="Button">
-            <Setter Property="Margin" Value="10"/>
-            <Setter Property="Height" Value="40"/>
-            <Setter Property="Width" Value="120"/>
-            <Setter Property="Background" Value="#4CAF50"/>
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#3498db"/>
             <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="15,10"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                        CornerRadius="5"
+                        Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#2980b9"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ActionButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#3498db"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="20,8"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                        CornerRadius="5"
+                        Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#2980b9"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="InputFieldStyle" TargetType="TextBox">
+            <Setter Property="Padding" Value="5, 2"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" 
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost" Margin="{TemplateBinding Padding}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Padding" Value="10,8"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+        <Style x:Key="HeaderTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#333333"/>
+            <Setter Property="Margin" Value="0,0,0,20"/>
+        </Style>
+
+        <Style x:Key="LabelStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="Foreground" Value="#555555"/>
+            <Setter Property="Margin" Value="0,5,0,2"/>
         </Style>
     </Window.Resources>
 
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="4.5*"/>
         </Grid.ColumnDefinitions>
+        <!-- Left Side Menu -->
+        <Border Grid.Column="0" Background="#2c3e50" Padding="15">
+            <StackPanel>
+                <TextBlock Text="Quản lý Sản phẩm" FontSize="20" FontWeight="Bold" Foreground="White" Margin="0,20,0,40" HorizontalAlignment="Center"/>
 
-        <!-- Sidebar -->
-        <StackPanel Grid.Column="0" Background="#343a40">
-            <TextBlock Text="Admin Panel" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="10"/>
-            <Button Content="Dashboard" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
-            <Button Content="Products" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
-            <Button Content="Orders" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
-            <Button Content="Customers" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5" />
-            <Button Content="Settings" HorizontalAlignment="Stretch" Foreground="White" Background="#575d63" Margin="5"/>
-        </StackPanel>
+                <Button Content="Bảng điều khiển" Style="{StaticResource MenuButtonStyle}">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="⌂" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button Content="Sản phẩm" Style="{StaticResource MenuButtonStyle}" Background="#2980b9">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="📦" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button x:Name="btnCategory" Content="Danh mục" Style="{StaticResource MenuButtonStyle}" Click="btnCategory_Click">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="🏷️" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button Content="Thương hiệu" Style="{StaticResource MenuButtonStyle}">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="™️" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button x:Name="btnDiscount" Content="Giảm giá" Style="{StaticResource MenuButtonStyle}" Click="btnDiscount_Click">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button Content="Báo cáo" Style="{StaticResource MenuButtonStyle}">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="📊" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button Content="Cài đặt" Style="{StaticResource MenuButtonStyle}" Margin="0,5,0,0">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="⚙️" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button x:Name="btnHome" Content="Trang chủ" Style="{StaticResource MenuButtonStyle}" Background="DarkGoldenrod" Margin="0,40,0,0" Click="btnHome_Click">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="📊" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button Content="Đăng xuất" Style="{StaticResource MenuButtonStyle}" Background="#e74c3c" Margin="0,5,0,0">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="🚪" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+            </StackPanel>
+        </Border>
+
 
         <!-- Main Content -->
-        <Grid Grid.Column="1" x:Name="MainContent">
+        <Grid Grid.Column="1" Margin="20">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="*"/>
@@ -82,6 +231,7 @@
                     <DataGridTextColumn Header="Account Rank" Binding="{Binding Path=AccountRankName}" Width="*"/>
                     <DataGridTextColumn Header="Percent" Binding="{Binding Path=Percent}" Width="*"/>
                     <DataGridTextColumn Header="Min Cost" Binding="{Binding Path=MinCost}" Width="*"/>
+                    <DataGridTextColumn Header="Amount" Binding="{Binding Path=Amount}" Width="*"/>
                     <DataGridTextColumn Header="End Date" Binding="{Binding Path=EndDate, StringFormat=\{0:dd-MM-yyyy\}}" Width="*"/>
                     <DataGridTextColumn Header="Status" Binding="{Binding Path=MyStatus}" Width="*"/>
                 </DataGrid.Columns>
@@ -90,38 +240,44 @@
             <!-- Form for adding/updating a discount -->
             <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Vertical" Margin="10">
                 <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <Label Content="Discount Id" Style="{StaticResource LabelStyle}" />
-                    <TextBox Name="txtDiscountId" Style="{StaticResource TextBoxStyle}" IsEnabled="False"/>
+                    <Label Content="Discount Id"  />
+                    <TextBox Name="txtDiscountId" IsEnabled="False"/>
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <Label Content="Discount Name" Style="{StaticResource LabelStyle}" />
-                    <TextBox Name="txtDiscountName" Style="{StaticResource TextBoxStyle}" />
+                    <Label Content="Discount Name" />
+                    <TextBox Name="txtDiscountName"  />
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <Label Content="Account Rank" Style="{StaticResource LabelStyle}" />
-                    <ComboBox Name="cbxAccountRank" Style="{StaticResource ComboBoxStyle}" />
+                    <Label Content="Account Rank"  />
+                    <ComboBox Name="cbxAccountRank"  />
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <Label Content="Percent" Style="{StaticResource LabelStyle}" />
-                    <TextBox Name="txtPercent" Style="{StaticResource TextBoxStyle}" />
+                    <Label Content="Percent"  />
+                    <TextBox Name="txtPercent" />
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <Label Content="Min Cost" Style="{StaticResource LabelStyle}" />
-                    <TextBox Name="txtMinCost" Style="{StaticResource TextBoxStyle}" />
+                    <Label Content="Min Cost" />
+                    <TextBox Name="txtMinCost"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="Amount" />
+                    <TextBox Name="txtAmount" />
+                </StackPanel>
+
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <Label Content="End Date" />
+                    <DatePicker Name="dpkEndDate"  />
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <Label Content="End Date" Style="{StaticResource LabelStyle}" />
-                    <DatePicker Name="dpkEndDate" Style="{StaticResource DatePickerStyle}" />
-                </StackPanel>
-
-                <StackPanel Orientation="Horizontal" Margin="0,5">
-                    <Label Content="Status" Style="{StaticResource LabelStyle}" />
-                    <ComboBox Name="cbxStatus" Style="{StaticResource ComboBoxStyle}">
+                    <Label Content="Status"  />
+                    <ComboBox Name="cbxStatus" >
                         <ComboBoxItem Content="Active"/>
                         <ComboBoxItem Content="Inactive" />
                     </ComboBox>
@@ -134,9 +290,9 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Button Name="btnInsert" Grid.Column="0" Content="Insert" Style="{StaticResource ButtonStyle}" Click="btnInsert_Click"/>
-                    <Button Name="btnUpdate" Grid.Column="1" Content="Update" Style="{StaticResource ButtonStyle}" Click="btnUpdate_Click"/>
-                    <Button Name="btnDelete" Grid.Column="2" Content="Delete" Style="{StaticResource ButtonStyle}" Click="btnDelete_Click"/>
+                    <Button Name="btnInsert" Grid.Column="0" Content="Insert"  Click="btnInsert_Click"/>
+                    <Button Name="btnUpdate" Grid.Column="1" Content="Update"  Click="btnUpdate_Click"/>
+                    <Button Name="btnDelete" Grid.Column="2" Content="Delete"  Click="btnDelete_Click"/>
                 </Grid>
             </StackPanel>
         </Grid>

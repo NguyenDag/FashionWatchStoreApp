@@ -21,7 +21,7 @@ namespace ProjectPRN.Models
         // ✅ Thuộc tính này không có trong database
         private bool _isSelected;
 
-        [NotMapped] // Đảm bảo Entity Framework bỏ qua thuộc tính này
+        [NotMapped] 
         public bool IsSelected
         {
             get => _isSelected;

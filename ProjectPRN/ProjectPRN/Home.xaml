@@ -66,7 +66,7 @@
                 <!-- Ẩn mặc định -->
 
                 <!-- Quản lý tài khoản (chỉ hiển thị nếu roleId = admin) -->
-                <Button x:Name="btnManageUsers" Grid.Column="5" Content="👥 Quản lý tài khoản"
+                <Button x:Name="btnManageUsers" Grid.Column="5" Content="👥 Quản lý người dùng"
                 Foreground="White" Background="Transparent" BorderThickness="0"
                 FontSize="16" FontWeight="Bold" Margin="20,0" Click="btnManageUsers_Click"
                 Visibility="Collapsed"/>
@@ -105,21 +105,23 @@
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
                                 <Border BorderBrush="#D1D1D1" BorderThickness="1" CornerRadius="15"
-                                        Background="White" Margin="5" MinHeight="240" Width="180">
+                Background="White" Margin="5" MinHeight="240" Width="180">
                                     <StackPanel>
-                                        <Image Source="{Binding ProductImages[0].ImageUrl}" Height="120" Width="150"
-                                               Stretch="UniformToFill" Margin="0,5" ClipToBounds="True"/>
+                                        <Image Source="{Binding MainImage}" Height="120" Width="150"
+                       Stretch="UniformToFill" Margin="0,5" ClipToBounds="True"/>
                                         <TextBlock Text="{Binding ProductName}" FontSize="14" FontWeight="Bold"
-                                                   Foreground="#333" TextAlignment="Center" Margin="5,0"/>
+                           Foreground="#333" TextAlignment="Center" Margin="5,0"/>
                                         <TextBlock Text="{Binding PriceSell, StringFormat='Giá: {0:C}'}"
-                                                   FontSize="12" Foreground="Red" TextAlignment="Center"/>
-                                        <Button Content="🛒 Mua ngay" Background="#007ACC" Foreground="White"
-                                                FontSize="12" Margin="5,10,5,5" Padding="7,5" Cursor="Hand"
-                                                HorizontalAlignment="Stretch"/>
+                           FontSize="12" Foreground="Red" TextAlignment="Center"/>
+                                        <Button x:Name="btnBuy" Content="🛒 Mua ngay" Background="#007ACC" Foreground="White"
+                        FontSize="12" Margin="5,10,5,5" Padding="7,5" Cursor="Hand"
+                        HorizontalAlignment="Stretch"
+                        Click="btnBuy_Click" Tag="{Binding ProductId}"/>
                                     </StackPanel>
                                 </Border>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
+
                     </ItemsControl>
                 </ScrollViewer>
 
@@ -176,7 +178,7 @@
                                 <Border BorderBrush="#D1D1D1" BorderThickness="1" CornerRadius="15"
                                         Background="White" Margin="5" MinHeight="240" Width="180">
                                     <StackPanel>
-                                        <Image Source="{Binding ProductImages[0].ImageUrl}" Height="120" Width="150"
+                                        <Image Source="{Binding MainImage}" Height="120" Width="150"
                                                Stretch="UniformToFill" Margin="0,5" ClipToBounds="True"/>
                                         <TextBlock Text="{Binding ProductName}" FontSize="14" FontWeight="Bold"
                                                    Foreground="#333" TextAlignment="Center" Margin="5,0"/>
@@ -184,7 +186,7 @@
                                                    FontSize="12" Foreground="Red" TextAlignment="Center"/>
                                         <Button Content="🛒 Mua ngay" Background="#28A745" Foreground="White"
                                                 FontSize="12" Margin="5,10,5,5" Padding="7,5" Cursor="Hand"
-                                                HorizontalAlignment="Stretch"/>
+                                                HorizontalAlignment="Stretch" Click="btnBuy_Click" Tag="{Binding ProductId}"/>
                                     </StackPanel>
                                 </Border>
                             </DataTemplate>

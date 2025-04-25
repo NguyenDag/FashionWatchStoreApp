@@ -1,0 +1,54 @@
+﻿<Page x:Class="ProjectPRN.ProductStatistic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Product Statistic" Height="500" Width="900"
+        Background="#F4F4F4">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Bộ lọc thời gian -->
+        <Border Background="White" Padding="10" CornerRadius="8" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="Lọc theo thời gian:" VerticalAlignment="Center" FontWeight="Bold"/>
+                <ComboBox x:Name="cbTimeFilter" Width="150" Margin="5" SelectionChanged="CbTimeFilter_SelectionChanged">
+                    <ComboBoxItem Content="Hôm nay" />
+                    <ComboBoxItem Content="7 ngày qua" />
+                    <ComboBoxItem Content="30 ngày qua" />
+                    <ComboBoxItem Content="Năm nay" />
+                    <ComboBoxItem Content="Khoảng thời gian tùy chọn" />
+                </ComboBox>
+
+                <TextBlock Text="Từ ngày:" VerticalAlignment="Center" FontWeight="Bold"/>
+                <DatePicker x:Name="dpStartDate" Width="130" Margin="5" IsEnabled="False"/>
+
+                <TextBlock Text="Đến ngày:" VerticalAlignment="Center" FontWeight="Bold"/>
+                <DatePicker x:Name="dpEndDate" Width="130" Margin="5" IsEnabled="False"/>
+
+                <Button Content="Tìm kiếm" Click="BtnSearch_Click" Width="100" Margin="5"
+                        Background="#007ACC" Foreground="White" FontWeight="Bold" BorderBrush="Transparent"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Sản phẩm bán chạy -->
+        <Border Grid.Row="1" Background="White" Padding="10" CornerRadius="8" Margin="0,0,0,10">
+            <StackPanel>
+                <TextBlock Text="🔥 Sản phẩm bán chạy nhất" FontSize="16" FontWeight="Bold" Foreground="#007ACC"/>
+                <DataGrid x:Name="dgMostProductStatistics" AutoGenerateColumns="True" Height="200" 
+                          Margin="0,5,0,0" Background="White" BorderBrush="#CCC" BorderThickness="1"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Sản phẩm ít bán -->
+        <Border Grid.Row="2" Background="White" Padding="10" CornerRadius="8">
+            <StackPanel>
+                <TextBlock Text="❄️ Sản phẩm không bán được" FontSize="16" FontWeight="Bold" Foreground="#D9534F"/>
+                <DataGrid x:Name="dgLeastProductStatistic" AutoGenerateColumns="True" Height="200" 
+                          Margin="0,5,0,0" Background="White" BorderBrush="#CCC" BorderThickness="1"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

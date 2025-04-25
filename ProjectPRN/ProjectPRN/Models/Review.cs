@@ -20,4 +20,13 @@ public partial class Review
     public virtual Account? Account { get; set; }
 
     public virtual Product? Product { get; set; }
+
+    public string ReviewStarsFormatted
+    {
+        get
+        {
+            int rating = ReviewRating ?? 0; // Nếu null, mặc định 0 sao
+            return new string('★', rating) + new string('☆', 5 - rating);
+        }
+    }
 }

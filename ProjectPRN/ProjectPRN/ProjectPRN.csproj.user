@@ -31,7 +31,13 @@
     <Compile Update="ProductManagementWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ProductStatistic.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RegisterWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RevenueandProfitStatistic.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Shop.xaml.cs">
@@ -48,7 +54,16 @@
     <Page Update="AccountManagementWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CategoryManagementWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ChangePassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CheckOut.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DashBoard.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DiscountManagement.xaml">
@@ -60,6 +75,9 @@
     <Page Update="Home.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="HomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -69,13 +87,31 @@
     <Page Update="ProductManagementWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="ProductStatistic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RankMemberStatistics.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="RegisterWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RevenueandProfitStatistic.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Shop.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ShoppingCart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StatisticWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TopCancelCustomers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TopCustomers.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewInfo.xaml">

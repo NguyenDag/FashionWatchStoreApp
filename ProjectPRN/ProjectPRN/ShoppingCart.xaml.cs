@@ -36,6 +36,7 @@ namespace ProjectPRN
                 var cartItems = context.Carts
                     .Where(c => c.AccountId == accountId)
                     .Include(c => c.Product)
+                    .ThenInclude(p => p.ProductImages)
                     .ToList();
 
                 CartItems.Clear();
@@ -48,7 +49,7 @@ namespace ProjectPRN
                         ProductId = item.ProductId,
                         Quantity = item.Quantity,
                         Product = item.Product,
-                        IsSelected = false 
+                        IsSelected = false
                     };
 
                     cart.PropertyChanged += Cart_PropertyChanged;
@@ -56,6 +57,7 @@ namespace ProjectPRN
                 }
             }
         }
+
 
         public decimal CheckoutTotal => SelectedItems.Sum(item => item.Quantity * item.Product.PriceSell);
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -103,15 +105,38 @@ namespace ProjectPRN
         {
             using (var context = new ProjectPrnContext())
             {
-                var cartItem = context.Carts.FirstOrDefault(c => c.ProductId == productId && c.AccountId == accountId);
+                var cartItem = context.Carts.Include(c => c.Product).FirstOrDefault(c => c.ProductId == productId && c.AccountId == accountId);
                 if (cartItem != null)
                 {
-                    cartItem.Quantity = Math.Max(1, cartItem.Quantity + change);
-                    context.SaveChanges();
+                    int newQuantity = cartItem.Quantity + change;
+                    if (newQuantity >= 1 && newQuantity <= cartItem.Product.Quantity)
+                    {
+                        cartItem.Quantity = newQuantity;
+                        context.SaveChanges();
+                    }
                 }
             }
 
             LoadCartItems();
+        }
+
+        // Xử lý xóa sản phẩm khỏi giỏ hàng
+        private void RemoveProduct_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button button && button.Tag is int productId)
+            {
+                using (var context = new ProjectPrnContext())
+                {
+                    // Tìm sản phẩm trong giỏ hàng của người dùng
+                    var cartItem = context.Carts.FirstOrDefault(c => c.ProductId == productId && c.AccountId == accountId);
+                    if (cartItem != null)
+                    {
+                        context.Carts.Remove(cartItem);
+                        context.SaveChanges();
+                        LoadCartItems();
+                    }
+                }
+            }
         }
 
 
@@ -182,29 +207,11 @@ namespace ProjectPRN
             UpdateNavbar();
         }
 
-        // Xử lý xóa sản phẩm khỏi giỏ hàng
-        private void RemoveProduct_Click(object sender, RoutedEventArgs e)
-        {
-            if (sender is Button button && button.Tag is int productId)
-            {
-                using (var context = new ProjectPrnContext())
-                {
-                    // Tìm sản phẩm trong giỏ hàng của người dùng
-                    var cartItem = context.Carts.FirstOrDefault(c => c.ProductId == productId && c.AccountId == accountId);
-                    if (cartItem != null)
-                    {
-                        context.Carts.Remove(cartItem);
-                        context.SaveChanges();
-                        LoadCartItems(); 
-                    }
-                }
-            }
-        }
 
         private void btnShop_Click(object sender, RoutedEventArgs e)
         {
             Shop shop = new Shop();
-            shop.ShowDialog();
+            shop.Show();
             this.Close();
         }
 
@@ -215,6 +222,12 @@ namespace ProjectPRN
             cart.Show();
             this.Close();
 
+        }
+        private void CheckOut_Click(object sender, RoutedEventArgs e)
+        {
+            CheckOut checkOut = new CheckOut(SelectedItems);
+            this.Close();
+            checkOut.ShowDialog();
         }
     }
 }

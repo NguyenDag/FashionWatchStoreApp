@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -23,12 +24,38 @@ namespace ProjectPRN
     public partial class AccountManagementWindow : Window
     {
         private readonly ProjectPrnContext context;
-        private readonly List<Account> accounts;
+        //private readonly List<Account> accounts;
         private Account selectedAccount;
+        private ObservableCollection<Account> _accounts; // Danh sách tài khoản
+        private CollectionViewSource _viewSource; // Bộ lọc danh sách
         public AccountManagementWindow()
         {
             context = new ProjectPrnContext();
             InitializeComponent();
+
+            _accounts = new ObservableCollection<Account>();
+            _viewSource = new CollectionViewSource { Source = _accounts };
+            _viewSource.View.Filter = AccountFilter;
+
+            // Gán dữ liệu cho ListView
+            DgvAccounts.ItemsSource = _viewSource.View;
+        }
+        // Hàm lọc danh sách theo nội dung nhập vào TextBox
+        private bool AccountFilter(object item)
+        {
+            if (string.IsNullOrWhiteSpace(TxtSearch.Text))
+                return true; // Hiển thị tất cả nếu không nhập gì
+
+            var account = item as Account;
+            return account.Username.Contains(TxtSearch.Text, System.StringComparison.OrdinalIgnoreCase) ||
+                   account.Email.Contains(TxtSearch.Text, System.StringComparison.OrdinalIgnoreCase) ||
+                   account.Fullname.Contains(TxtSearch.Text, System.StringComparison.OrdinalIgnoreCase);
+        }
+
+        // Sự kiện khi nhấn nút "Tìm kiếm"
+        private void BtnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            _viewSource.View.Refresh(); // Cập nhật danh sách hiển thị
         }
 
         private void DgvAccounts_Loaded(object sender, RoutedEventArgs e)
@@ -38,28 +65,52 @@ namespace ProjectPRN
 
         private void DgvAccounts_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            selectedAccount = DgvAccounts.SelectedItem as Account;
-            if (selectedAccount != null)
+
+            try
             {
-                TxtUsername.Text = selectedAccount.Username;
-                TxtFullname.Text = selectedAccount.Fullname;
-                TxtAddress.Text = selectedAccount.Address;
-                TxtPhone.Text = selectedAccount.Phone;
-                TxtEmail.Text = selectedAccount.Email;
-                //DpkDob.SelectedDate = DateOnly.FromDateTime(account.Dob.Value);
-                //DpkDob.SelectedDate = account.Dob.ToDateTime(TimeOnly.MinValue);
-                DpkDob.Text = selectedAccount.Dob.ToString();
-                TxtGender.Text = selectedAccount.MyGender;
-                CbxStatus.Text = selectedAccount.StatusDisplay;
-                TxtAccountRank.Text = selectedAccount.AccountRank.AccountRankName;
-                BtnUpdate.IsEnabled = true;
-                BtnDelete.IsEnabled = true;
+                selectedAccount = DgvAccounts.SelectedItem as Account;
+                if (selectedAccount != null)
+                {
+                    TxtUsername.Text = selectedAccount.Username;
+                    TxtFullname.Text = selectedAccount.Fullname;
+                    TxtAddress.Text = selectedAccount.Address;
+                    TxtPhone.Text = selectedAccount.Phone;
+                    TxtEmail.Text = selectedAccount.Email;
+
+                    DpkDob.Text = selectedAccount.Dob.ToString();
+                    TxtGender.Text = selectedAccount.MyGender;
+                    CbxStatus.Text = selectedAccount.StatusDisplay;
+
+                    if (selectedAccount.AccountRank != null)
+                    {
+                        TxtAccountRank.Text = selectedAccount.AccountRank.AccountRankName;
+                    }
+                    else
+                    {
+                        TxtAccountRank.Text = "Chưa có hạng";
+                    }
+
+                    BtnUpdate.IsEnabled = true;
+                    BtnDelete.IsEnabled = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
         private void LoadDB()
         {
-            var accounts = context.Accounts.Where(x => x.Role == 1).Include(x => x.AccountRank).ToList();
-            DgvAccounts.ItemsSource = accounts;
+            //var accounts = context.Accounts.Where(x => x.Role == 1).Include(x => x.AccountRank).ToList();
+            //DgvAccounts.ItemsSource = accounts;
+            _accounts.Clear(); // Xóa dữ liệu cũ để tránh trùng lặp
+            var accountsFromDb = context.Accounts.Where(x => x.Role == 1).Include(x => x.AccountRank).ToList();
+            foreach (var acc in accountsFromDb)
+            {
+                _accounts.Add(acc);
+            }
+            _viewSource.View.Refresh(); // Cập nhật lại danh sách hiển thị
         }
 
         private void BtnClear_Click(object sender, RoutedEventArgs e)
@@ -300,6 +351,36 @@ namespace ProjectPRN
             {
                 MessageBox.Show($"Lỗi: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+            SessionManager.Logout();
+            MessageBox.Show("Bạn đã đăng xuất thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+            Home home = new Home();
+            home.Show();
+            this.Close();
+        }
+
+        private void BtnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            SessionManager.Logout();
+            MessageBox.Show("Bạn đã đăng xuất thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+            Home home = new Home();
+            home.Show();
+            this.Close();
+        }
+
+        private void btnProductManagement_Click(object sender, RoutedEventArgs e)
+        {
+            ProductManagementWindow productManagementWindow = new ProductManagementWindow();
+            productManagementWindow.Show();
+            this.Close();
+        }
+
+        private void btnHome_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -21,9 +21,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            CornerRadius="4">
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
@@ -45,9 +45,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            CornerRadius="4">
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
@@ -72,9 +72,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="TextBox">
                         <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            CornerRadius="4">
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4">
                             <ScrollViewer x:Name="PART_ContentHost"/>
                         </Border>
                     </ControlTemplate>
@@ -91,9 +91,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="PasswordBox">
                         <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            CornerRadius="4">
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="4">
                             <ScrollViewer x:Name="PART_ContentHost"/>
                         </Border>
                     </ControlTemplate>
@@ -112,58 +112,58 @@
                     <ControlTemplate TargetType="ComboBox">
                         <Grid>
                             <ToggleButton Name="ToggleButton" 
-                                      BorderBrush="{TemplateBinding BorderBrush}" 
-                                      BorderThickness="{TemplateBinding BorderThickness}"
-                                      Background="{TemplateBinding Background}"
-                                      Focusable="false"
-                                      IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
+                                  BorderBrush="{TemplateBinding BorderBrush}" 
+                                  BorderThickness="{TemplateBinding BorderThickness}"
+                                  Background="{TemplateBinding Background}"
+                                  Focusable="false"
+                                  IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}">
                                 <ToggleButton.Template>
                                     <ControlTemplate TargetType="ToggleButton">
                                         <Border BorderBrush="{TemplateBinding BorderBrush}" 
-                                            BorderThickness="{TemplateBinding BorderThickness}"
-                                            Background="{TemplateBinding Background}" 
-                                            CornerRadius="4">
+                                        BorderThickness="{TemplateBinding BorderThickness}"
+                                        Background="{TemplateBinding Background}" 
+                                        CornerRadius="4">
                                             <Grid>
                                                 <Grid.ColumnDefinitions>
                                                     <ColumnDefinition Width="*"/>
                                                     <ColumnDefinition Width="20"/>
                                                 </Grid.ColumnDefinitions>
                                                 <ContentPresenter Grid.Column="0"
-                                                             HorizontalAlignment="Left" 
-                                                             Margin="3"
-                                                             VerticalAlignment="Center"/>
+                                                         HorizontalAlignment="Left" 
+                                                         Margin="3"
+                                                         VerticalAlignment="Center"/>
                                                 <Path Grid.Column="1"
-                                                 HorizontalAlignment="Center"
-                                                 VerticalAlignment="Center"
-                                                 Data="M0,0 L4,4 L8,0 Z"
-                                                 Fill="#444"/>
+                                             HorizontalAlignment="Center"
+                                             VerticalAlignment="Center"
+                                             Data="M0,0 L4,4 L8,0 Z"
+                                             Fill="#444"/>
                                             </Grid>
                                         </Border>
                                     </ControlTemplate>
                                 </ToggleButton.Template>
                             </ToggleButton>
                             <ContentPresenter Name="ContentSite"
-                                         Content="{TemplateBinding SelectionBoxItem}"
-                                         ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
-                                         ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
-                                         Margin="10,3,30,3"
-                                         VerticalAlignment="Center"
-                                         HorizontalAlignment="Left"/>
+                                     Content="{TemplateBinding SelectionBoxItem}"
+                                     ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                     ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                     Margin="10,3,30,3"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Left"/>
                             <Popup Name="Popup"
-                              Placement="Bottom"
-                              IsOpen="{TemplateBinding IsDropDownOpen}"
-                              AllowsTransparency="True"
-                              Focusable="False"
-                              PopupAnimation="Slide">
+                          Placement="Bottom"
+                          IsOpen="{TemplateBinding IsDropDownOpen}"
+                          AllowsTransparency="True"
+                          Focusable="False"
+                          PopupAnimation="Slide">
                                 <Grid Name="DropDown"
-                                 SnapsToDevicePixels="True"
-                                 MinWidth="{TemplateBinding ActualWidth}"
-                                 MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                             SnapsToDevicePixels="True"
+                             MinWidth="{TemplateBinding ActualWidth}"
+                             MaxHeight="{TemplateBinding MaxDropDownHeight}">
                                     <Border x:Name="DropDownBorder"
-                                       Background="White"
-                                       BorderThickness="1"
-                                       BorderBrush="#BDBDBD"
-                                       CornerRadius="0,0,4,4"/>
+                                   Background="White"
+                                   BorderThickness="1"
+                                   BorderBrush="#BDBDBD"
+                                   CornerRadius="0,0,4,4"/>
                                     <ScrollViewer Margin="4,6,4,6" SnapsToDevicePixels="True">
                                         <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained"/>
                                     </ScrollViewer>
@@ -220,7 +220,18 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="QUẢN LÝ TÀI KHOẢN" Foreground="White" FontSize="22" FontWeight="Bold" HorizontalAlignment="Left"/>
-                <Button x:Name="BtnOpenAddAccountModal" Content="Thêm tài khoản" Grid.Column="1" Padding="10,5" Background="White" Foreground="#1E88E5" BorderThickness="1" BorderBrush="#1E88E5" Click="BtnOpenAddAccountModal_Click" Visibility="Collapsed"/>
+                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <Button x:Name="btnProductManagement" Content="Quản lý sản phẩm" 
+                            Padding="10,10" Background="White" 
+                            Foreground="#1E88E5" BorderThickness="1" 
+                            BorderBrush="#1E88E5" Click="btnProductManagement_Click"/>
+                    <Button x:Name="btnHome" Content="Đăng xuất" 
+                            Padding="10,10" Background="White" 
+                            Foreground="#1E88E5" BorderThickness="1" 
+                            BorderBrush="#1E88E5" Click="btnHome_Click"/>
+                </StackPanel>
+                
+
             </Grid>
         </Border>
 
@@ -296,13 +307,13 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBox x:Name="TxtSearch" Grid.Column="0" Padding="10" />
-                    <Button x:Name="BtnSearch" Grid.Column="1" Content="Tìm kiếm"/>
+                    <Button x:Name="BtnSearch" Grid.Column="1" Content="Tìm kiếm" Click="BtnSearch_Click"/>
                 </Grid>
 
                 <!-- Data Grid -->
                 <DataGrid x:Name="DgvAccounts" Grid.Row="1" Loaded="DgvAccounts_Loaded" 
-                      SelectionChanged="DgvAccounts_SelectionChanged" 
-                      AutoGenerateColumns="False">
+                  SelectionChanged="DgvAccounts_SelectionChanged" 
+                  AutoGenerateColumns="False">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="ID" Binding="{Binding AccountId}" Width="120" Visibility="Collapsed"/>
                         <DataGridTextColumn Header="Tên đăng nhập" Binding="{Binding Username}" Width="120"/>
@@ -311,7 +322,7 @@
                         <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="180"/>
                         <DataGridTextColumn Header="Ngày sinh" Binding="{Binding Path=Dob, StringFormat=dd/MM/yyyy}" Width="180"/>
                         <DataGridTextColumn Header="Số điện thoại" Binding="{Binding Phone}" Width="120"/>
-                        <DataGridTextColumn Header="Giới tính" Binding="{Binding GenderDisplay}" Width="80"/>
+                        <DataGridTextColumn Header="Giới tính" Binding="{Binding MyGender}" Width="80"/>
                         <DataGridTextColumn Header="Trạng thái" Binding="{Binding StatusDisplay}" Width="120"/>
                         <DataGridTextColumn Header="Cấp độ" Binding="{Binding AccountRank.AccountRankName}" Width="100"/>
                     </DataGrid.Columns>

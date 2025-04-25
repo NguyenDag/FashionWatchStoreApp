@@ -1,0 +1,42 @@
+﻿<Page x:Class="ProjectPRN.RevenueandProfitStatistic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:local="clr-namespace:ProjectPRN"
+        mc:Ignorable="d"
+        Title="RevenueandProfíttatistic" Height="450" Width="800">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBlock Text="Year:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <ComboBox x:Name="YearComboBox" Width="100" SelectionChanged="YearComboBox_SelectionChanged"/>
+            <TextBlock Text="Month:" VerticalAlignment="Center" Margin="10,0,5,0"/>
+            <ComboBox x:Name="MonthComboBox" Width="100" SelectionChanged="MonthComboBox_SelectionChanged"/>
+        </StackPanel>
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <lvc:CartesianChart x:Name="ProductTypeChart" Grid.Row="0" Series="{Binding SeriesCollection}" DataClick="Chart_OnDataClick">
+                <lvc:CartesianChart.AxisX>
+                    <lvc:Axis Title="Product Type" Labels="{Binding ProductTypeLabels}"/>
+                </lvc:CartesianChart.AxisX>
+                <lvc:CartesianChart.AxisY>
+                    <lvc:Axis Title="Revenue" LabelFormatter="{Binding Formatter}"/>
+                </lvc:CartesianChart.AxisY>
+            </lvc:CartesianChart>
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <TextBlock x:Name="TotalRevenueTextBlock" Margin="10,0"/>
+                <TextBlock x:Name="TotalProfitTextBlock" Margin="10,0"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+

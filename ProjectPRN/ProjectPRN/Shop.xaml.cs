@@ -31,6 +31,7 @@ namespace ProjectPRN
             LoadData();
             LoadCategory();
             LoadBrand();
+            UpdateNavbar();
         }
 
         public void LoadData()
@@ -237,19 +238,35 @@ namespace ProjectPRN
             products = products.Where(p => p.PriceBuy >= PriceFrom && p.PriceBuy <= PriceTo);
 
             // Cập nhật danh sách sản phẩm
-            var filteredProducts = products.ToList();
+            var filteredProducts = products.Select(p => new
+            {
+                p.ProductId,
+                p.ProductName,
+                p.PriceBuy,
+                p.Quantity,
+                ProductImage = ProjectPrnContext.Ins.ProductImages
+                        .Where(img => img.ProductId == p.ProductId && img.IsMain == true)
+                        .Select(img => img.ImageUrl)
+                        .FirstOrDefault() ?? "default_image.jpg"
+            })
+                .ToList();
             dgData.ItemsSource = filteredProducts;
             dgData.Items.Refresh();
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
         {
-
+            Home homeWindow = new Home();
+            homeWindow.Show();
+            this.Close();
         }
 
         private void AddToCart_Click(object sender, RoutedEventArgs e)
         {
-
+            int accountId = SessionManager.AccountId;
+            ShoppingCart cart = new ShoppingCart();
+            cart.Show();
+            this.Close();
         }
 
         private void ViewDetail_Click(object sender, RoutedEventArgs e)
@@ -259,7 +276,8 @@ namespace ProjectPRN
             {
                 ProductDetail productDetail = new ProductDetail(productID);
                 this.Close();
-                productDetail.ShowDialog();
+                productDetail.Show();
+                this.Close();
             }
         }
 
@@ -277,7 +295,128 @@ namespace ProjectPRN
         {
             ProductDetail productDetail = new ProductDetail(ProductID);
             this.Close();
-            productDetail.ShowDialog();
+            productDetail.Show();
+            this.Close();
+        }
+        //navbar
+           private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow window = new LoginWindow();
+            if (window.ShowDialog() == true)
+            {
+                if (SessionManager.IsLoggedIn)
+                {
+                    UpdateNavbar();
+                }
+            }
+            this.Close();
+        }
+
+
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow window = new RegisterWindow();
+            window.Show();
+            this.Close();
+        }
+
+        private void btnHome_Click_1(object sender, RoutedEventArgs e)
+        {
+            Home homeWindow = new Home();
+            homeWindow.Show();
+            this.Close();
+
+        }
+
+        private void UpdateNavbar()
+        {
+            if (SessionManager.IsLoggedIn)
+            {
+                btnLogin.Visibility = Visibility.Collapsed;
+                btnRegister.Visibility = Visibility.Collapsed;
+
+                btnViewInfo.Visibility = Visibility.Visible;
+                btnLogout.Visibility = Visibility.Visible;
+                if (SessionManager.Role == 0)
+                {
+                    btnManageUsers.Visibility = Visibility.Visible;
+                    btnManageProducts.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    btnManageUsers.Visibility = Visibility.Collapsed;
+                    btnManageProducts.Visibility = Visibility.Collapsed;
+                }
+
+            }
+            else
+            {
+                btnLogin.Visibility = Visibility.Visible;
+                btnRegister.Visibility = Visibility.Visible;
+
+                btnViewInfo.Visibility = Visibility.Collapsed;
+                btnLogout.Visibility = Visibility.Collapsed;
+
+                btnManageUsers.Visibility = Visibility.Collapsed;
+                btnManageProducts.Visibility = Visibility.Collapsed;
+
+            }
+        }
+
+        private void btnViewInfo_Click(object sender, RoutedEventArgs e)
+        {
+            ViewInfo profileWindow = new ViewInfo();
+            profileWindow.ShowDialog();
+
+        }
+
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            SessionManager.Logout();
+            MessageBox.Show("Bạn đã đăng xuất thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            UpdateNavbar();
+        }
+
+        private void btnCart_Click(object sender, RoutedEventArgs e)
+        {
+            int accountId = SessionManager.AccountId;
+            ShoppingCart cart = new ShoppingCart();
+            cart.Show();
+            this.Close();
+        }
+
+        private void btnShop_Click(object sender, RoutedEventArgs e)
+        {
+            Shop shop = new Shop();
+            shop.Show();
+            this.Close();
+        }
+
+        private void btnManageUsers_Click(object sender, RoutedEventArgs e)
+        {
+            AccountManagementWindow accountManagement = new AccountManagementWindow();
+            accountManagement.Show();
+            this.Close();
+        }
+
+        private void btnManageProducts_Click(object sender, RoutedEventArgs e)
+        {
+            ProductManagementWindow productManagement = new ProductManagementWindow();
+            productManagement.Show();
+            this.Close();
+        }
+
+
+        private void btnBuy_Click(object sender, RoutedEventArgs e)
+        {
+            Button bt=sender as Button;
+            if (bt != null && bt.Tag is int productId)
+            {
+                ProductDetail pd = new ProductDetail(productId);
+                pd.Show();
+                this.Close();
+            }
         }
     }
 }

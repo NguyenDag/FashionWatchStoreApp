@@ -1,0 +1,30 @@
+﻿<Page x:Class="ProjectPRN.TopCancelCustomers"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProjectPRN"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TopCancelCustomers" Background="White">
+
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Top khách hàng hủy đơn nhiều nhất" FontSize="18" FontWeight="Bold"/>
+
+            <DataGrid Name="dgvTopCancel" AutoGenerateColumns="False" Height="300" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="STT" Binding="{Binding Index}" Width="50"/>
+                    <DataGridTextColumn Header="Tên khách hàng" Binding="{Binding CustomerName}" Width="*"/>
+                    <DataGridTextColumn Header="Rank" Binding="{Binding Rank}" Width="100"/>
+                    <DataGridTextColumn Header="Số đơn hàng đã hủy" Binding="{Binding OrdersCount}" Width="150"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Text="Lọc theo:" VerticalAlignment="Center"/>
+                <ComboBox x:Name="cbxTopCancel" Width="150" SelectionChanged="cbxTopCancel_SelectionChanged"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

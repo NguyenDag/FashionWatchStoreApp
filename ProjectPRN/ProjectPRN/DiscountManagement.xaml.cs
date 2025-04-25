@@ -35,12 +35,13 @@ namespace ProjectPRN
 
         public void LoadDiscount()
         {
-            var discounts = ProjectPrnContext.Ins.Discounts.Select(d => new 
+            var discounts = ProjectPrnContext.Ins.Discounts.Select(d => new
             {
                 d.DiscountId,
                 d.DiscountName,
                 d.Percent,
                 d.MinCost,
+                d.Amount,
                 d.EndDate,
                 d.MyStatus,
                 d.AccountRankId,
@@ -51,6 +52,7 @@ namespace ProjectPRN
             }).ToList();
             dgvDisplay.ItemsSource = discounts;
         }
+
 
         public void LoadAccountRank()
         {
@@ -72,10 +74,12 @@ namespace ProjectPRN
                 cbxAccountRank.SelectedValue = stds.AccountRankId;
                 txtPercent.Text = stds.Percent.ToString();
                 txtMinCost.Text = stds.MinCost.ToString();
+                txtAmount.Text = stds.Amount.ToString(); 
                 dpkEndDate.SelectedDate = DateTime.Parse(stds.EndDate.ToString());
                 cbxStatus.Text = stds.MyStatus;
             }
         }
+
 
         private void clearForm()
         {
@@ -85,13 +89,14 @@ namespace ProjectPRN
             txtPercent.Text = string.Empty;
             dpkEndDate.SelectedDate = null;
             txtMinCost.Text = string.Empty;
+            txtAmount.Text = string.Empty; 
             cbxStatus.Text = string.Empty;
         }
-       
+
+
 
         private void btnInsert_Click(object sender, RoutedEventArgs e)
         {
-            // Kiểm tra các trường hợp không hợp lệ
             if (string.IsNullOrEmpty(txtDiscountName.Text))
             {
                 MessageBox.Show("Tên mã giảm giá không được để trống.");
@@ -109,6 +114,14 @@ namespace ProjectPRN
                 MessageBox.Show("Giá trị chi phí tối thiểu không hợp lệ. Vui lòng nhập một số không âm.");
                 return;
             }
+            if (!int.TryParse(txtAmount.Text, out int amount) || amount < 0)
+            {
+                MessageBox.Show("Giá trị Amount không hợp lệ. Vui lòng nhập một số nguyên không âm.");
+                return;
+            }
+
+
+
 
             if (!dpkEndDate.SelectedDate.HasValue)
             {
@@ -116,20 +129,14 @@ namespace ProjectPRN
                 return;
             }
 
-            if (cbxStatus.SelectedItem == null || (cbxStatus.Text != "Active" && cbxStatus.Text != "Inactive"))
-            {
-                MessageBox.Show("Trạng thái không hợp lệ. Vui lòng chọn 'Active' hoặc 'Inactive'.");
-                return;
-            }
-
-            // Tiến hành thêm mã giảm giá mới vào cơ sở dữ liệu
             var newDiscount = new Discount
             {
                 DiscountName = txtDiscountName.Text,
                 Percent = percent,
                 MinCost = minCost,
+                Amount = amount, 
                 EndDate = DateOnly.FromDateTime(dpkEndDate.SelectedDate.Value),
-                Status = cbxStatus.Text == "Active", 
+                Status = cbxStatus.Text == "Active",
                 AccountRankId = (int)cbxAccountRank.SelectedValue
             };
 
@@ -139,7 +146,6 @@ namespace ProjectPRN
             MessageBox.Show("Bạn đã thêm mã giảm giá mới thành công!");
             LoadDiscount();
             clearForm();
-
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
@@ -183,20 +189,20 @@ namespace ProjectPRN
                 return;
             }
 
+            if (!int.TryParse(txtAmount.Text, out int amount) || amount < 0)
+            {
+                MessageBox.Show("Giá trị Amount không hợp lệ. Vui lòng nhập một số nguyên không âm.");
+                return;
+            }
+
+
             if (!dpkEndDate.SelectedDate.HasValue)
             {
                 MessageBox.Show("Ngày kết thúc không được để trống.");
                 return;
             }
 
-            if (cbxStatus.SelectedItem == null || (cbxStatus.Text != "Active" && cbxStatus.Text != "Inactive"))
-            {
-                MessageBox.Show("Trạng thái không hợp lệ. Vui lòng chọn 'Active' hoặc 'Inactive'.");
-                return;
-            }
-
             int discountId = int.Parse(txtDiscountId.Text);
-
             var discountToUpdate = ProjectPrnContext.Ins.Discounts.Find(discountId);
 
             if (discountToUpdate != null)
@@ -204,6 +210,7 @@ namespace ProjectPRN
                 discountToUpdate.DiscountName = txtDiscountName.Text;
                 discountToUpdate.Percent = percent;
                 discountToUpdate.MinCost = minCost;
+                discountToUpdate.Amount = amount; 
                 discountToUpdate.EndDate = DateOnly.FromDateTime(dpkEndDate.SelectedDate.Value);
                 discountToUpdate.Status = cbxStatus.Text == "Active";
                 discountToUpdate.AccountRankId = (int)cbxAccountRank.SelectedValue;
@@ -211,7 +218,7 @@ namespace ProjectPRN
                 ProjectPrnContext.Ins.SaveChanges();
 
                 MessageBox.Show("Bạn đã cập nhật mã giảm giá thành công!");
-                LoadDiscount(); 
+                LoadDiscount();
                 clearForm();
             }
             else
@@ -219,6 +226,29 @@ namespace ProjectPRN
                 MessageBox.Show("Mã giảm giá không tồn tại.");
             }
         }
+
+        private void btnCategory_Click(object sender, RoutedEventArgs e)
+        {
+            CategoryManagementWindow categoryManagementWindow = new CategoryManagementWindow();
+            categoryManagementWindow.Show();
+            this.Close();
+        }
+
+
+        private void btnDiscount_Click(object sender, RoutedEventArgs e)
+        {
+            DiscountManagement dis = new DiscountManagement();
+            dis.Show();
+            this.Close();
+        }
+
+        private void btnHome_Click(object sender, RoutedEventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Close();
+        }
+
 
     }
 }

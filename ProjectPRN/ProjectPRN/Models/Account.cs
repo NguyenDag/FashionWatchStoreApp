@@ -47,5 +47,7 @@ public partial class Account
     {
         get =>DateTime.Parse(Dob.Value.ToString()); 
     }
-   
+
+    
+
 }

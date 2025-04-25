@@ -20,8 +20,8 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" 
-                            CornerRadius="5"
-                            Padding="{TemplateBinding Padding}">
+                         CornerRadius="5"
+                         Padding="{TemplateBinding Padding}">
                             <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
@@ -44,8 +44,8 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" 
-                            CornerRadius="5"
-                            Padding="{TemplateBinding Padding}">
+                         CornerRadius="5"
+                         Padding="{TemplateBinding Padding}">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
@@ -69,9 +69,9 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="TextBox">
                         <Border Background="{TemplateBinding Background}" 
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}"
-                            CornerRadius="5">
+                         BorderBrush="{TemplateBinding BorderBrush}"
+                         BorderThickness="{TemplateBinding BorderThickness}"
+                         CornerRadius="5">
                             <ScrollViewer x:Name="PART_ContentHost" Margin="{TemplateBinding Padding}"/>
                         </Border>
                     </ControlTemplate>
@@ -135,7 +135,7 @@
                     </Button.ContentTemplate>
                 </Button>
 
-                <Button Content="Danh mục" Style="{StaticResource MenuButtonStyle}">
+                <Button x:Name="btnCategory" Content="Danh mục" Style="{StaticResource MenuButtonStyle}" Click="btnCategory_Click">
                     <Button.ContentTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
@@ -157,11 +157,11 @@
                     </Button.ContentTemplate>
                 </Button>
 
-                <Button Content="Cấp bậc tài khoản" Style="{StaticResource MenuButtonStyle}">
+                <Button x:Name="btnDiscount" Content="Giảm giá" Style="{StaticResource MenuButtonStyle}" Click="btnDiscount_Click">
                     <Button.ContentTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="👑" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="" FontSize="16" Margin="0,0,10,0"/>
                                 <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
                             </StackPanel>
                         </DataTemplate>
@@ -190,7 +190,18 @@
                     </Button.ContentTemplate>
                 </Button>
 
-                <Button Content="Đăng xuất" Style="{StaticResource MenuButtonStyle}" Background="#e74c3c" Margin="0,40,0,0">
+                <Button x:Name="btnHome" Content="Trang chủ" Style="{StaticResource MenuButtonStyle}" Background="DarkGoldenrod" Margin="0,40,0,0" Click="btnHome_Click">
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="📊" FontSize="16" Margin="0,0,10,0"/>
+                                <TextBlock Text="{Binding}" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                </Button>
+
+                <Button Content="Đăng xuất" Style="{StaticResource MenuButtonStyle}" Background="#e74c3c" Margin="0,5,0,0">
                     <Button.ContentTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
@@ -282,20 +293,29 @@
                         </Border>
 
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10">
-                            <Button Content="⏪" Width="30" Height="30" Margin="5,0" Style="{StaticResource ActionButtonStyle}"/>
-                            <Border Width="60" Height="60" Background="#EEEEEE" CornerRadius="5" Margin="5,0">
-                                <Image Stretch="Uniform" Margin="5"/>
-                            </Border>
-                            <Border Width="60" Height="60" Background="#EEEEEE" CornerRadius="5" Margin="5,0" BorderBrush="#3498db" BorderThickness="2">
-                                <Image Stretch="Uniform" Margin="5"/>
-                            </Border>
-                            <Border Width="60" Height="60" Background="#EEEEEE" CornerRadius="5" Margin="5,0">
-                                <Image Stretch="Uniform" Margin="5"/>
-                            </Border>
-                            <Button Content="⏩" Width="30" Height="30" Margin="5,0" Style="{StaticResource ActionButtonStyle}"/>
+                            <Button x:Name="btnPrev" Content="⏪" Width="30" Height="30" Margin="5,0" Style="{StaticResource ActionButtonStyle}" Click="btnPrev_Click"/>
+
+                            <ListBox x:Name="lbProductImages" ItemsSource="{Binding DisplayedImages}" SelectionChanged="lbProductImages_SelectionChanged"
+                                 Width="200" Height="60" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                <ListBox.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <StackPanel Orientation="Horizontal"/>
+                                    </ItemsPanelTemplate>
+                                </ListBox.ItemsPanel>
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Width="60" Height="60" Background="#EEEEEE" CornerRadius="5" Margin="5,0"
+                                             BorderBrush="Transparent" BorderThickness="2">
+                                            <Image Source="{Binding}" Stretch="Uniform" Margin="5"/>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+
+                            <Button x:Name="btnNext" Content="⏩" Width="30" Height="30" Margin="5,0" Style="{StaticResource ActionButtonStyle}" Click="btnNext_Click"/>
                         </StackPanel>
 
-                        <Button Content="Tải ảnh lên" Style="{StaticResource ActionButtonStyle}" Margin="0,10,0,0" HorizontalAlignment="Center"/>
+                        <Button Content="Tải ảnh lên" Style="{StaticResource ActionButtonStyle}" Margin="0,10,0,0" HorizontalAlignment="Center" Click="btnUploadImage_Click"/>
                     </StackPanel>
                 </Border>
             </Grid>
@@ -339,8 +359,8 @@
                             </Grid>
                         </Border>
 
-                        <ComboBox Grid.Column="1" Width="150" Margin="10,0" Style="{StaticResource ComboBoxStyle}">
-                            <ComboBoxItem x:Name="cbxCategoryFilter" Content="Tất cả danh mục" IsSelected="True"/>
+                        <ComboBox x:Name="cbxCategoryFilter" Grid.Column="1" Width="150" Margin="10,0" Style="{StaticResource ComboBoxStyle}">
+                            <!--<ComboBoxItem Content="Tất cả danh mục" IsSelected="True"/>-->
                         </ComboBox>
 
                         <Button Grid.Column="2" Content="Tìm kiếm" Style="{StaticResource ActionButtonStyle}" Width="100"/>
@@ -348,12 +368,12 @@
 
                     <!-- Data Grid -->
                     <DataGrid Grid.Row="1" x:Name="dgvProducts" AutoGenerateColumns="False" IsReadOnly="True"
-                          CanUserAddRows="False" CanUserDeleteRows="False" 
-                          BorderThickness="1" BorderBrush="#DDDDDD"
-                          Background="White" RowBackground="White" AlternatingRowBackground="#F5F5F5"
-                          GridLinesVisibility="Horizontal" HeadersVisibility="Column"
-                          SelectionMode="Single" SelectionUnit="FullRow" Loaded="dgvProducts_Loaded"
-                          SelectionChanged="dgvProducts_SelectionChanged">
+                       CanUserAddRows="False" CanUserDeleteRows="False" 
+                       BorderThickness="1" BorderBrush="#DDDDDD"
+                       Background="White" RowBackground="White" AlternatingRowBackground="#F5F5F5"
+                       GridLinesVisibility="Horizontal" HeadersVisibility="Column"
+                       SelectionMode="Single" SelectionUnit="FullRow" Loaded="dgvProducts_Loaded"
+                       SelectionChanged="dgvProducts_SelectionChanged">
                         <DataGrid.Resources>
                             <Style TargetType="DataGridColumnHeader">
                                 <Setter Property="Background" Value="#3498db"/>
@@ -377,32 +397,8 @@
                             <DataGridTextColumn Header="Số lượng" Binding="{Binding Quantity}" Width="80"/>
                             <DataGridTextColumn Header="Giá nhập" Binding="{Binding PriceBuy, StringFormat='{}{0:N0}'}" Width="100"/>
                             <DataGridTextColumn Header="Giá bán" Binding="{Binding PriceSell, StringFormat='{}{0:N0}'}" Width="100"/>
-                            <DataGridTextColumn Header="Trạng thái" Binding="{Binding StatusDisplay}" Width="80"/>
-                            <DataGridTemplateColumn Header="Thao tác" Width="120">
-                                <DataGridTemplateColumn.CellTemplate>
-                                    <DataTemplate>
-                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                                            <Button Content="Sửa" Background="#f39c12" Foreground="White" Padding="8,3" Margin="2" BorderThickness="0">
-                                                <Button.Template>
-                                                    <ControlTemplate TargetType="Button">
-                                                        <Border Background="{TemplateBinding Background}" CornerRadius="3" Padding="{TemplateBinding Padding}">
-                                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                        </Border>
-                                                    </ControlTemplate>
-                                                </Button.Template>
-                                            </Button>
-                                            <Button Content="Xóa" Background="#e74c3c" Foreground="White" Padding="8,3" Margin="2" BorderThickness="0">
-                                                <Button.Template>
-                                                    <ControlTemplate TargetType="Button">
-                                                        <Border Background="{TemplateBinding Background}" CornerRadius="3" Padding="{TemplateBinding Padding}">
-                                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                                        </Border>
-                                                    </ControlTemplate>
-                                                </Button.Template>
-                                            </Button>
-                                        </StackPanel>
-                                    </DataTemplate>
-                                </DataGridTemplateColumn.CellTemplate>
+                            <DataGridTemplateColumn Header="Thao tác" Width="120" Visibility="Collapsed">
+
                             </DataGridTemplateColumn>
                         </DataGrid.Columns>
                     </DataGrid>

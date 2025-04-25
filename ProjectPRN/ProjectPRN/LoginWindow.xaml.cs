@@ -11,7 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ProjectPRN.Config;
 using ProjectPRN.Models;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 namespace ProjectPRN
 {
     /// <summary>
@@ -23,6 +25,16 @@ namespace ProjectPRN
         public LoginWindow()
         {
             InitializeComponent();
+            LoadSavedCredentials();
+        }
+        private void LoadSavedCredentials()
+        {
+            if (UserCredentialManager.TryGetCredentials(out string username, out string password))
+            {
+                txtUsername.Text = username;
+                txtPassword.Password = password;
+                chkRememberMe.IsChecked = true;
+            }
         }
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
@@ -48,13 +60,33 @@ namespace ProjectPRN
                 MessageBox.Show("Tài khoản này tạm thời bị khóa!", "Lỗi đăng nhập", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
-
+            if (chkRememberMe.IsChecked == true)
+            {
+                UserCredentialManager.SaveCredentials(username, password);
+            }
+            else
+            {
+                UserCredentialManager.ClearCredentials();
+            }
             // Lưu trạng thái đăng nhập
             SessionManager.AccountId = account.AccountId;
             SessionManager.Role = account.Role;
 
             MessageBox.Show($"Đăng nhập thành công! Vai trò: {account.Role}", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
-
+            if(SessionManager.Role == 0)
+            {
+                DashBoard dashBoard = new DashBoard();
+                dashBoard.Show();
+                this.Close();
+                return;
+            }
+            else if(SessionManager.Role == 2)
+            {
+                AccountManagementWindow accountManagementWindow = new AccountManagementWindow();
+                accountManagementWindow.Show();
+                this.Close();
+                return;
+            }
             // Mở cửa sổ Home và cập nhật navbar
             Home mainWindow = new Home();
             mainWindow.Show();

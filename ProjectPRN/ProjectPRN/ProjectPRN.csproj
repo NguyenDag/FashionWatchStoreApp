@@ -9,12 +9,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\1.jpeg" />
+    <None Remove="Images\2.jpeg" />
+    <None Remove="Images\3.jpeg" />
+    <None Remove="Images\4.jpeg" />
+    <None Remove="Images\5.jpeg" />
+    <None Remove="Images\6.jpeg" />
+    <None Remove="Images\7.jpeg" />
+    <None Remove="Images\8.jpeg" />
+    <None Remove="Images\9.jpeg" />
     <None Remove="Images\banner1.jpg" />
     <None Remove="Images\banner2.jpg" />
     <None Remove="Images\logo.png" />
   </ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+		<PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
 			<PrivateAssets>all</PrivateAssets>
@@ -29,6 +39,33 @@
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
 	</ItemGroup>
 	<ItemGroup>
+	  <Resource Include="Images\1.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\2.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\3.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\4.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\5.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\6.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\7.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\8.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\9.jpeg">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Resource>
 	  <Resource Include="Images\banner1.jpg">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Resource>

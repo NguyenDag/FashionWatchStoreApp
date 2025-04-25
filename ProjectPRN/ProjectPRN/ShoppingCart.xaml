@@ -80,7 +80,7 @@
                                 <GridViewColumn Header="Hình ảnh" Width="80">
                                     <GridViewColumn.CellTemplate>
                                         <DataTemplate>
-                                            <Image Source="{Binding ImagePath}" Width="50" Height="50"/>
+                                            <Image Source="{Binding Product.MainImage}" Width="50" Height="50"/>
                                         </DataTemplate>
                                     </GridViewColumn.CellTemplate>
                                 </GridViewColumn>
@@ -101,7 +101,7 @@
                         Click="DecreaseQuantity_Click" Tag="{Binding ProductId}"/>
 
                                                 <!-- Hiển thị số lượng -->
-                                                <TextBox Text="{Binding Quantity, UpdateSourceTrigger=PropertyChanged}" 
+                                                <TextBox Text="{Binding Quantity}" 
                          Width="50" Background="#ECEFF1" HorizontalContentAlignment="Center"
                          IsReadOnly="True"/>
 
@@ -148,7 +148,7 @@
                         <TextBlock Text="Tổng thanh toán: " FontSize="18" FontWeight="Bold" Foreground="#455A64"/>
                         <TextBlock Text="{Binding CheckoutTotal}" FontSize="18" FontWeight="Bold" Foreground="#D32F2F"/>
                     </StackPanel>
-                    <Button Content="🛍️ Thanh toán" Width="150" Height="40" Background="#43A047" Foreground="White" FontWeight="Bold" BorderThickness="0" Cursor="Hand" Margin="0,10,0,0"/>
+                    <Button Content="🛍️ Thanh toán" Width="150" Height="40" Background="#43A047" Foreground="White" FontWeight="Bold" BorderThickness="0" Cursor="Hand" Margin="0,10,0,0" Click="CheckOut_Click"/>
                 </StackPanel>
             </Border>
         </Grid>

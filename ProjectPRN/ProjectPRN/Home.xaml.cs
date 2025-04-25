@@ -33,6 +33,7 @@ namespace ProjectPRN
                      .Include(p => p.Category)
                      .Include(p => p.Brand)
                      .Include(p => p.Reviews)
+                     .Include(p=>p.ProductImages)
                      .Where(p => p.Status == 1 && p.Reviews.Any())
                      .OrderByDescending(p => p.Reviews.Average(r => r.ReviewRating))
                      .Take(7)
@@ -44,11 +45,11 @@ namespace ProjectPRN
                 var newProductList = context.Products
                     .Include(p => p.Category)
                     .Include(p => p.Brand)
+                    .Include(p => p.ProductImages)
                     .Where(p => p.Status == 1)
                     .OrderByDescending(p => p.ProductId)
                     .Take(10)
                     .ToList();
-
                 NewProducts = new ObservableCollection<Product>(newProductList);
 
                 var reviewList = context.Reviews
@@ -88,6 +89,7 @@ namespace ProjectPRN
                     UpdateNavbar();
                 }
             }
+            this.Close();
         }
 
 
@@ -167,13 +169,13 @@ namespace ProjectPRN
         private void btnShop_Click(object sender, RoutedEventArgs e)
         {
             Shop shop = new Shop();
-            shop.ShowDialog();
+            shop.Show();
             this.Close();
         }
 
         private void btnManageUsers_Click(object sender, RoutedEventArgs e)
         {
-            AccountManagementWindow accountManagement = new AccountManagementWindow();
+            DashBoard accountManagement = new DashBoard();
             accountManagement.Show();
             this.Close();
         }
@@ -183,6 +185,18 @@ namespace ProjectPRN
             ProductManagementWindow productManagement = new ProductManagementWindow();
             productManagement.Show();
             this.Close();
+        }
+
+
+        private void btnBuy_Click(object sender, RoutedEventArgs e)
+        {
+            Button bt=sender as Button;
+            if (bt != null && bt.Tag is int productId)
+            {
+                ProductDetail pd = new ProductDetail(productId);
+                pd.Show();
+                this.Close();
+            }
         }
     }
 }
